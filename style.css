@@ -1,0 +1,125 @@
+nav {
+    background-color: lightgrey;
+}
+ nav ul {
+    padding: 10px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;/* center the list items */
+ }
+nav ul li {
+    margin: 5px  ; /* add some spacing betwwen the list */
+}
+nav ul li.left{
+    margin-right: auto;
+    font-weight: bold;
+
+}
+nav ul li.right{
+    margin-left: auto;
+    background-color: black;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Times New Roman', serif;
+    color: grey;
+    
+}
+
+.image-container{
+    position: relative;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+.background-image{
+    width:45%;
+    height: auto;
+    border-radius: 50% 50%;
+}
+.overlay-image{
+    position: absolute;
+    width: 20%;
+    height: auto;
+    bottom: 0;
+
+}
+.content1{
+    display: flex;
+    background-color: lightgray;
+
+}
+.content1 p.right{
+    margin-left: auto;
+}
+.content1 p{
+    margin:10px;
+    font-size: small;
+    font-family: courier;
+}
+.header{
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+}
+.header h1{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 2px;
+    font-size: 100px;
+    font-weight: 900;
+}
+.fa-arrow-right{
+    font-size: 200px;
+    margin-left: auto;
+}
+.logo{
+    background-color: rgba(0, 0, 0, 1.1);
+    display: flex;
+    margin: 0;
+    
+}
+.logo li img{
+    width: 50x;
+    height: 100px;
+    margin: 45px;
+}
+p{
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding: 10px 0px 0px 35px;  
+    margin: 0;
+}
+.service{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.service  h2{
+    margin: 0;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 0px 0px 35px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+
